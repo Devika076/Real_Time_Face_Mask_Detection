@@ -3,9 +3,13 @@ A real-time AI-powered face mask detection system built using Python, OpenCV, Te
 
 📌 Features
 Real-time face mask detection using a webcam.
+
 Trained deep learning model with MobileNetV2 for high accuracy.
+
 Works with images, video files, or live streams.
+
 Lightweight model for faster inference.
+
 Easy-to-use and well-documented.
 
 
