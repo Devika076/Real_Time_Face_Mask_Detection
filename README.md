@@ -8,35 +8,4 @@ Works with images, video files, or live streams.
 Lightweight model for faster inference.
 Easy-to-use and well-documented.
 
-🛠️ Tech Stack
-Programming Language: Python
-Libraries & Frameworks: OpenCV, TensorFlow, Keras, NumPy, imutils
-Model Architecture: MobileNetV2 (Pre-trained on ImageNet)
-Tools: Jupyter Notebook, Git
-📂 Project Structure
-
-Dataset
-The model was trained using:
-
-With Mask and Without Mask images.
-Data augmentation techniques to improve generalization.
-Pre-processing with OpenCV and NumPy.
-You can download similar datasets from:
-
-Kaggle - Face Mask Detection Dataset
-Installation
-Clone the repository
-
-git clone https://github.com/Gnanavip/Face-mask-detection
-cd Face-Mask-Detection
-Install Dependencies
-
- pip install -r requirements.txt
-Run detection
-
-python detect_mask_image.py --image examples/example_01.png
-python detect_mask_video.py
-Model Training
-
-python train_mask_detector.py --dataset dataset
 
